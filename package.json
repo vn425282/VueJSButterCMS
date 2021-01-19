@@ -1,0 +1,53 @@
+{
+  "name": "jebhealth-corporate-vuejs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Jebhealth - Corporate Landing",
+  "author": "Jackson Nguyen <jackson.nguyen@jebhealth.com>",
+  "scripts": {
+    "serve": "NODE_ENV=development vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bootstrap": "^4.5.2",
+    "buttercms": "^1.2.5",
+    "date-fns": "^2.16.1",
+    "fingerprintjs2": "^2.1.2",
+    "flickity": "^2.2.1",
+    "i": "^0.3.6",
+    "jquery": "^3.5.1",
+    "npm": "^6.14.8",
+    "popper.js": "^1.16.1",
+    "qs": "^6.9.4",
+    "typed.js": "^2.0.11",
+    "ua-parser-js": "^0.7.22",
+    "util": "^0.12.3",
+    "vue": "^2.6.12",
+    "vue-feather-icons": "^5.1.0",
+    "vue-flickity": "^1.2.1",
+    "vue-router": "^3.4.5",
+    "vue-scrollto": "^2.20.0",
+    "vue-svg-loader": "^0.16.0",
+    "vuex": "^3.5.1"
+  },
+  "devDependencies": {
+    "@babel/traverse": "^7.11.5",
+    "@babel/types": "^7.11.5",
+    "@vue/cli-plugin-babel": "~4.2.3",
+    "@vue/cli-plugin-eslint": "~4.2.3",
+    "@vue/cli-service": "~4.2.3",
+    "@vue/eslint-config-standard": "^5.1.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.12"
+  }
+}
